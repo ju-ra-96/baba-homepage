@@ -292,5 +292,917 @@ footer p {
     }
 }
 
-/* Additional Styles */
-/* Add any additional styles you might need */
+#about {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: left;
+}
+
+#about h2 {
+    color: #0056b3;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-content {
+    margin-top: 20px;
+}
+
+.about-content b {
+    font-weight: bold;
+}
+
+.about-content u {
+    text-decoration: underline;
+}
+
+/* Responsive Design for the About Section */
+@media screen and (max-width: 768px) {
+    #about {
+        width: 95%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2, section h3 {
+    color: #0056b3;
+    margin-bottom: 15px;
+}
+
+section p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Services Section */
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.item-services {
+    background: #eef4f7;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.item-services i {
+    font-size: 40px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+/* Testimonials, Careers, Opening Hours, and Contact Sections */
+.testimonial-list, .job-listings, .opening-hours, #contact {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .header-content, main {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+/* Additional Styling */
+/* Add any further custom styling here */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #4a4a4a;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0256b3;
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 30px;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #0056b3;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+/* Services Section */
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.item-services {
+    flex-basis: calc(33.333% - 20px);
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.item-services:hover {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.item-services i {
+    font-size: 40px;
+    color: #0056b3;
+    margin-bottom: 15px;
+}
+
+/* Testimonials Section */
+.testimonial-list {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 992px) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    nav ul {
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        padding: 5px;
+    }
+
+    .service-list {
+        flex-direction: column;
+    }
+
+    .item-services {
+        flex-basis: 100%;
+    }
+}
+
+#about {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+#about h2 {
+    color: #0056b3;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about-content {
+    color: #333;
+    padding: 15px 0;
+    text-align: justify;
+}
+
+.about-content h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.about-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Adjust line breaks for clarity */
+.about-content br {
+    margin-bottom: 10px;
+    display: block;
+    content: "";
+}
+
+/* Responsive Design for the About Section */
+@media screen and (max-width: 768px) {
+    #about {
+        width: 95%;
+        margin: 20px auto;
+    }
+}
+
+/* Service Item Icons */
+.item-services i {
+    color: #333; /* Set the color to match your text color */
+    font-size: 40px; /* Adjust the size as needed */
+    margin-bottom: 10px;
+}
+
+/* Service Item Text */
+.item-services h4, .item-services p {
+    color: #333; /* Ensure text color matches the icon color */
+}
+
+#about {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+#about h2 {
+    color: #0056b3;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content article {
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.about-content img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Adding underline and bold style to headings in paragraphs */
+.about-content h3 b u {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #about {
+        padding: 20px;
+    }
+
+    .about-content article {
+        text-align: center;
+    }
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+#about h2 {
+    color: #0056b3;
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content article {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-content img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;  /* Circular image */
+    margin-bottom: 20px;
+    border: 4px solid #0056b3;
+}
+
+.about-content h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.about-content p, .about-content h3 {
+    margin: 0 0 20px 0;
+    padding: 0 15px;
+    text-align: justify;
+    line-height: 1.7;
+    max-width: 800px;
+}
+
+/* Enhancing underline and bold style */
+.about-content h3 b u {
+    text-decoration: none;
+    border-bottom: 2px solid #0056b3;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #about {
+        padding: 20px;
+    }
+
+    .about-content p, .about-content h3 {
+        max-width: 100%;
+    }
+}
+
+/* Carousel Styles */
+.carousel {
+    width: 90%;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 86, 179, 0.7); /* Matching the header color */
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 100;
+}
+
+.carousel-arrow:hover {
+    background-color: rgba(0, 86, 179, 0.9);
+}
+
+.left-arrow {
+    left: 15px;
+}
+
+.right-arrow {
+    right: 15px;
+}
+
+/* Responsive styles for carousel */
+@media screen and (max-width: 768px) {
+    .carousel {
+        width: 95%;
+    }
+}
+
+/* Adjust the padding for main to avoid overlap with the header */
+main {
+    padding-top: 40px;
+}
+
+/* Carousel Styles */
+.carousel {
+    width: 100%; /* Adjusted to take full width of its container */
+    margin: auto;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 86, 179, 0.7); /* Matching the header color */
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 100;
+}
+
+.carousel-arrow:hover {
+    background-color: rgba(0, 86, 179, 0.9);
+}
+
+.left-arrow {
+    left: 15px;
+}
+
+.right-arrow {
+    right: 15px;
+}
+
+/* Responsive styles for carousel */
+@media screen and (max-width: 768px) {
+    .carousel {
+        width: 95%;
+    }
+}
+
+/* Main Section Styles */
+main {
+    width: 80%; /* Adjust this width to match the carousel width */
+    margin: 0 auto;
+}
+
+/* Responsive styles for main content */
+@media screen and (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+}
+/* Carousel Styles */
+.carousel {
+    width: 80%; /* Adjusted to match the width of other sections */
+    margin: 30px auto; /* Centering the carousel */
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are block level */
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 86, 179, 0.7);
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 100;
+}
+
+.carousel-arrow:hover {
+    background-color: rgba(0, 86, 179, 0.9);
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+/* Responsive styles for carousel */
+@media screen and (max-width: 768px) {
+    .carousel {
+        width: 95%; /* Adjust for smaller screens */
+    }
+}
+
+/* Adjust the main content to align with the carousel width */
+main {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+}
+
+/* Carousel Styles */
+.carousel {
+    width: 100%; /* Carousel takes the full width of the container */
+    margin: 0 auto; /* Ensures the carousel is centered */
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0; /* Set to 0 for a full-width look without rounded corners */
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Display block to remove any white space underneath */
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent for visibility on all images */
+    border: none;
+    padding: 10px;
+    z-index: 100;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+/* Ensures the carousel controls are visible on all images */
+.carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive styles for carousel */
+@media screen and (max-width: 768px) {
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-arrow {
+        font-size: 20px; /* Adjust size for smaller devices */
+        padding: 5px;
+    }
+
+    .left-arrow, .right-arrow {
+        padding: 0; /* Adjust padding for smaller screens */
+    }
+}
+/* Carousel Styles */
+.carousel {
+    width: 100%; /* Match the width of the main content */
+    margin: auto;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-item {
+    display: none; /* Hide all slides by default */
+}
+
+.carousel-item.active {
+    display: block; /* Only show the active slide */
+}
+
+/* Arrows for navigation */
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5); /* Change as needed */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.left-arrow {
+    left: 15px;
+}
+
+.right-arrow {
+    right: 15px;
+}
+
+/* Main content styles to match carousel width */
+main {
+    width: 80%; /* or 100% depending on your design */
+    margin: auto;
+}
+
+/* Ensure the header, main, and footer have the same max-width and margin */
+.header-content, main, footer {
+    max-width: 1200px; /* Adjust as needed */
+    margin: auto;
+}
+
+/* Continue with other styles... */
+/* Use flexbox for the header content */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+/* Style the navigation menu with flex */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around; /* Distribute space evenly around the menu items */
+}
+
+/* Flex for the main content area */
+main {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center-align the content */
+    width: 80%;
+    margin: 0 auto; /* Center the main content area */
+}
+
+/* Flex for each section */
+section {
+    display: flex;
+    flex-direction: column; /* Stack content vertically within each section */
+    width: 100%;
+    margin-bottom: 20px; /* Provide spacing between sections */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: white;
+}
+
+/* Flex for service list items */
+.service-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for multiple items */
+    justify-content: space-around; /* Distribute space evenly */
+    gap: 20px; /* Provide spacing between items */
+}
+
+/* Flex for the testimonial, careers, opening-hours, and contact sections */
+.testimonial-list, .job-listings, .opening-hours, #contact {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center-align the content */
+}
+
+/* Flex for the footer */
+footer {
+    display: flex;
+    justify-content: center; /* Center-align the footer content */
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive adjustments with flexbox */
+@media screen and (max-width: 768px) {
+    .header-content, main {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        width: 95%; /* Adjust width for small screens */
+    }
+
+    .service-list {
+        justify-content: center; /* Center the items when they stack vertically */
+    }
+
+    /* Additional responsive adjustments as needed */
+}
