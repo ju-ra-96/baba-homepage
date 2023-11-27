@@ -172,3 +172,163 @@ footer p {
         margin-bottom: 10px;
     }
 }
+
+/* Header Styles */
+header {
+    background-color: #0056b3; /* Deep blue to convey trust and professionalism */
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem; /* Horizontal padding for content alignment */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem; /* Larger font size for brand prominence */
+    font-weight: bold;
+}
+
+.logo i {
+    margin-right: 0.5rem; /* Space between the icon and the text */
+    color: #ffffff; /* Icon color */
+    font-size: 2rem; /* Icon size */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem; /* Space between navigation items */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    background-color: #004a9f; /* Slightly darker blue on hover/focus for interactivity */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem; /* Space between logo and navigation on small screens */
+    }
+
+    nav ul li {
+        width: 100%; /* Full-width navigation links */
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333; /* Dark background for contrast */
+    color: #ffffff;
+    padding: 1rem 0;
+    font-size: 0.9rem; /* Smaller font size for footer content */
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 0.5rem; /* Vertical padding for spacing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    footer p {
+        padding: 1rem; /* Increased padding on smaller screens for better readability */
+    }
+}
+
+/* Reset margins and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    /* Remove default browser padding and margin */
+}
+
+/* Full-width footer */
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0; /* Adjust padding as needed */
+    position: relative; /* Ensures that footer is at the bottom */
+    bottom: 0;
+    left: 0;
+}
+
+/* Additional styles for the footer content */
+footer p {
+    margin: 0; /* No margin for the paragraph to ensure it fits well */
+}
+
+footer {
+    background-color: #0056b3;
+    color: white; /* Ensuring the text color is white for better readability */
+    text-align: center;
+    padding: 20px 0; /* Add padding as needed */
+}
+
+footer {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}

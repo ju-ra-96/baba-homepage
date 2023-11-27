@@ -7,41 +7,6 @@ body {
     background-color: #f5f5f5;
 }
 
-header {
-    background-color: #0056b3;
-    color: white;
-    padding: 15px 0;
-}
-
-.header-content {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 .hero {
     text-align: center;
@@ -112,33 +77,9 @@ section h2 {
     margin-bottom: 10px;
 }
 
-footer {
-    background-color: #eef4f7;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
 
-footer p {
-    margin: 0;
-}
 
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-    .header-content, main {
-        width: 95%;
-        margin: 0 auto;
-    }
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-}
 
 /* General Styles */
 body {
@@ -159,43 +100,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Header */
-header {
-    background-color: #0056b3;
-    color: white;
-    padding: 15px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.header-content {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 /* Hero Section */
 .hero {
@@ -259,38 +164,9 @@ section h2 {
     padding: 20px;
 }
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-}
 
-footer p {
-    margin: 0;
-}
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    .header-content, main {
-        width: 95%;
-        margin: 0 auto;
-    }
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .carousel img {
-        height: auto;
-    }
-}
 
 #about {
     background-color: white;
@@ -362,41 +238,8 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Header */
-header {
-    background-color: #0056b3;
-    color: white;
-    padding: 15px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
 
-.header-content {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
 
 /* Hero Section */
 .hero {
@@ -460,39 +303,12 @@ section p {
     text-align: center;
 }
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    .header-content, main {
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-}
 
 /* Additional Styling */
 /* Add any further custom styling here */
 /* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -512,40 +328,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Header */
-header {
-    background-color: #0056b3;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.logo {
-    font-size: 28px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    padding: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    font-weight: bold;
-}
 
 /* Hero Section */
 .hero {
@@ -606,28 +389,10 @@ section h2 {
     padding: 20px;
 }
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 30px;
-}
+
 
 /* Responsive Design */
 @media screen and (max-width: 992px) {
-    .header-content {
-        flex-direction: column;
-    }
-
-    nav ul {
-        padding-top: 10px;
-    }
-
-    nav ul li {
-        padding: 5px;
-    }
 
     .service-list {
         flex-direction: column;
@@ -1124,29 +889,6 @@ main {
     margin: auto;
 }
 
-/* Ensure the header, main, and footer have the same max-width and margin */
-.header-content, main, footer {
-    max-width: 1200px; /* Adjust as needed */
-    margin: auto;
-}
-
-/* Continue with other styles... */
-/* Use flexbox for the header content */
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-}
-
-/* Style the navigation menu with flex */
-nav ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    justify-content: space-around; /* Distribute space evenly around the menu items */
-}
 
 /* Flex for the main content area */
 main {
@@ -1184,25 +926,363 @@ section {
     align-items: center; /* Center-align the content */
 }
 
-/* Flex for the footer */
-footer {
-    display: flex;
-    justify-content: center; /* Center-align the footer content */
-    padding: 10px 0;
-    background-color: #333;
-    color: white;
-}
+
 
 /* Responsive adjustments with flexbox */
 @media screen and (max-width: 768px) {
-    .header-content, main {
-        flex-direction: column; /* Stack elements vertically on smaller screens */
-        width: 95%; /* Adjust width for small screens */
-    }
+   
 
     .service-list {
         justify-content: center; /* Center the items when they stack vertically */
     }
 
     /* Additional responsive adjustments as needed */
+}
+
+/* Services Section Styles */
+#services {
+    background-color: #f9f9f9; /* Light grey background for the section */
+    padding: 50px 0; /* Top and bottom padding */
+    text-align: center; /* Center aligning the text */
+}
+
+#services h2 {
+    margin-bottom: 30px; /* Space below the section heading */
+    font-size: 2.5rem; /* Larger font size for the heading */
+    color: #0056b3; /* Theme color for the heading */
+}
+
+.service-list {
+    display: flex; /* Flex container for service items */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: center; /* Center items horizontally */
+    gap: 30px; /* Space between items */
+}
+
+.item-services {
+    flex: 0 1 300px; /* Flex item sizing, with a basis of 300px */
+    padding: 20px; /* Padding inside each service box */
+    background-color: white; /* White background for service items */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.item-services:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.item-services i {
+    font-size: 40px; /* Large icon size */
+    color: #0056b3; /* Theme color for icons */
+    margin-bottom: 15px; /* Space below the icon */
+}
+
+.item-services h4 {
+    font-size: 1.5rem; /* Font size for service titles */
+    color: #333; /* Dark color for text */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.item-services p {
+    font-size: 1rem; /* Font size for service description */
+    line-height: 1.5; /* Line height for readability */
+    color: #666; /* Medium color for text */
+}
+
+/* Responsive Design for Services Section */
+@media (max-width: 768px) {
+    .service-list {
+        flex-direction: column; /* Stack service items on smaller screens */
+    }
+
+    .item-services {
+        flex: 0 1 90%; /* Adjust width on smaller screens */
+    }
+}
+
+/* General Styles */
+
+body, h2, table, input, button {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Section Styling */
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Join Our Team Section */
+.job-listings {
+    text-align: center;
+}
+
+.job-listings .job {
+    margin-bottom: 15px;
+}
+
+.job-listings .job a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.job-listings .job a:hover {
+    background-color: #004080;
+}
+
+/* Opening Hours Section */
+#opening-hours table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#opening-hours td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Contact Us Section */
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .job-listings, #opening-hours, #contact {
+        margin-bottom: 0;
+    }
+}
+
+/* Add more styles here as needed */
+article {
+    --img-scale: 1.001;
+    --title-color: black;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+  }
+  
+  article a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+  }
+  
+  /* basic article elements styling */
+  article h2 {
+    margin: 0 0 18px 0;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  
+  article img {
+    max-width: 100%;
+    transform-origin: center;
+    transform: scale(var(--img-scale));
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .article-body {
+    padding: 24px;
+  }
+  
+  article a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #28666e;
+  }
+  
+  article a:focus {
+    outline: 1px dotted #28666e;
+  }
+  
+  article a .icon {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    transform: translateX(var(--link-icon-translate));
+    opacity: var(--link-icon-opacity);
+    transition: all 0.3s;
+  }
+  
+  /* using the has() relational pseudo selector to update our custom properties */
+  article:has(:hover, :focus) {
+    --img-scale: 1.1;
+    --title-color: #28666e;
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  
+  /************************ 
+  Generic layout (demo looks)
+  **************************/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 48px 0;
+    font-family: "Figtree", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    background-image: linear-gradient(45deg, #eef2f3, #e0e5ec);
+    min-height: 100vh;
+}
+
+  
+  .articles {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    article {
+      container: card/inline-size;
+    }
+    .article-body p {
+      display: none;
+    }
+  }
+  
+  @container card (min-width: 380px) {
+    .article-wrapper {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 16px;
+    }
+    .article-body {
+      padding-left: 0;
+    }
+    figure {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    figure img {
+      height: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+  }
+  
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+
+ #services {
+    background-color: #D6E6F2;
+  }
+  
+
+
+#contact h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column; /* Stack the form fields vertically */
+    gap: 15px; /* Space between fields */
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners for input fields */
+    border: 1px solid #ddd; /* Light border for inputs */
+    font-size: 16px;
+}
+
+#contact textarea {
+    height: 150px; /* Set a fixed height for the textarea */
+}
+
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus,
+#contact textarea:focus {
+    border-color: #0056b3; /* Highlight color when the field is focused */
+    outline: none; /* Remove default focus outline */
+}
+
+#contact button[type="submit"] {
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners for the button */
+    border: none;
+    color: white;
+    background-color: #28a745; /* Bootstrap's .btn-success color */
+    font-size: 18px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #218838; /* Darken button color on hover */
 }
