@@ -1263,4 +1263,109 @@ article {
   #contact form button[type="submit"] {
     margin-bottom: 1.5rem; /* Increased space between form elements */
   }
-  
+
+/* Add this style to your CSS file */
+#contact input[type="text"],
+#contact input[type="email"] {
+    width: 100%; /* Makes the input take the full width of the form's container */
+    padding: 1em; /* Uses 'em' for relative padding based on the current font size */
+    margin-bottom: 1em; /* Adds space between the fields based on the current font size */
+}
+
+#contact textarea {
+    width: 100%; /* Makes the textarea take the full width of the form's container */
+    padding: 1em; /* Uses 'em' for relative padding */
+    margin-bottom: 1em; /* Adds space below the textarea */
+    height: 10em; /* Sets a relative height based on the current font size */
+}
+
+article {
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Light grey border with some transparency */
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: visible; /* Ensures that nothing is clipped */
+    position: relative; /* Can help with z-index stacking */
+    z-index: 1; /* Adjust as needed to bring element above others */
+    background-color: #FFF;
+}
+
+section {
+    width: 100%; /* Full width on large screens */
+    padding: 2rem; /* relative unit */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* You can add a max-width if you want a maximum size for larger screens */
+.container {
+    max-width: 1200px; /* or any size you prefer */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Flexbox layout for the main content */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Laptops (1024px and up to the max-width of the container) */
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 85%;
+    }
+}
+
+/* Tablets (768px and up to 1023px) */
+@media only screen and (max-width: 1023px) {
+    .container {
+        width: 80%;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+}
+
+/* Phones (up to 767px) */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    /* Adjust font sizes if necessary */
+    h1, h2, h3, p {
+        font-size: smaller; /* Adjust according to your design */
+    }
+
+    /* Adjust layout for smaller screens */
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin: 0.5rem 0;
+    }
+
+    /* For forms, you might want to make inputs stack vertically */
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="email"],
+    form input[type="submit"],
+    form textarea {
+        width: 100%; /* Full width */
+        margin: 0.5rem 0;
+    }
+}
+
+main section {
+    margin-top: 2rem; /* Adds space above the section */
+    margin-bottom: 2rem; /* Adds space below the section */
+}
+
